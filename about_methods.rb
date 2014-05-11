@@ -36,12 +36,12 @@ class AboutMethods < Neo::Koan
     exception = assert_raise(Exception) do
       my_global_method
     end
-    assert_match(/Argument/, exception.message)
+    assert_match(/arguments/, exception.message)
 
     exception = assert_raise(Exception) do
       my_global_method(1,2,3)
     end
-    assert_match(/Argument/, exception.message)
+    assert_match(/arguments/, exception.message)
   end
 
   # ------------------------------------------------------------------
