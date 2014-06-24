@@ -38,8 +38,8 @@ def score(dice)
   end
   dice.sort!
   dice.each do |roll|
-    if roll = 
-  
+    #if roll = 
+  end  
 end
 
 class AboutScoringProject < Neo::Koan
